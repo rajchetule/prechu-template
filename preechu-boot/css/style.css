@@ -1,0 +1,38 @@
+/*generic css*/
+.container-fluid, .container-fluid .row, .container-fluid .row .col{margin: 0;padding: 0;}
+.container{max-width: 1024px; margin:auto;font-family:SegoeWPN;}
+h1{font-size: 2.625em; color: #6f7173;}
+h3{font-size: 1.625em; color: #6f7173;}
+h4{font-size: 1.25em; color: #5094f2;}
+p{font-size: 0.875em ; color: #909090;}
+/*font css*/
+@font-face{src:url(../font/segoe-wp-light.ttf);font-family:segoe-wp-light; }
+@font-face{src:url(../font/SegoeWPN.ttf);font-family:SegoeWPN; }
+/*header section*/
+header .navbar{padding: 22px 24px 0 26px ;}
+header .navbar .navbar-nav{margin-top: 29px;}
+header .navbar .navbar-nav .nav-item{margin-left: 40px;}
+header .navbar .navbar-nav .nav-item .nav-link{padding: 0 0 21px 0;font-size:20px; color: #6c6c6c;}
+header .navbar .navbar-nav .nav-item .nav-link:hover{border-bottom: 3px solid #5094f2; padding-bottom: 18px;}
+/*category section*/
+.category{padding: 67px 0 95px;}
+/*cart section*/
+.cart h1{margin-left: 40px;}
+.cart .shop{padding:24px 0 53px 51px; }
+.cart .desc{}
+.cart .desc h3{margin-bottom: 25px;}
+.cart .desc p{font-size: 15px;line-height: 36px;font-family:segoe-wp-light;}
+/*footer section*/
+footer{border-top: 1px solid #e5e5e5;padding: 35px 0 45px ;}
+
+/*media querry*/
+@media (max-width: 768px) {
+	h1{font-size: 2.25em;padding-left: 20px; }
+	h3{font-size: 1.25em;}
+	h4{font-size: 1em; }
+	p{font-size: 0.6em ; }
+	.cart h1{margin-left: 20px;}
+	.cart .shop{width: 70%;}
+	.cart .shop img{width: 100%;}
+	.cart .desc{padding: 20px;}
+}
